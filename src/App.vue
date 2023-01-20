@@ -1,10 +1,15 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+  <testApi></testApi>
 </template>
+
+<script>
+import testApi from "@/components/testAPI.vue";
+export default {
+  components: {
+    testApi,
+  },
+};
+</script>
 
 <style>
 #app {
