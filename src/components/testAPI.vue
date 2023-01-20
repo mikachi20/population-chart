@@ -1,6 +1,6 @@
 <template>
   <h1 id="title">都道府県別人口チャート</h1>
-  <div>{{ isFirst }}</div>
+  <h1>{{ isFirst }}</h1>
   <h3>一つ以上選択してください</h3>
   <div id="checkList">
     <div
